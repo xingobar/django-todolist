@@ -4,6 +4,8 @@ from todolist.models import Todo
 
 class TodoSerializer(serializers.Serializer):
     def update(self, instance, validated_data):
+        instance.complete = validated_data.get('complete')
+        instance.save()
         return instance
 
     def create(self, validated_data):
