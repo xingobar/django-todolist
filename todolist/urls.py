@@ -1,7 +1,13 @@
-from rest_framework.routers import DefaultRouter
+from rest_framework.routers import SimpleRouter
 from .views import TodoViewSet
+from django.urls import path, include, re_path
 
-router = DefaultRouter()
+app_name = 'todos'
+
+router = SimpleRouter()
 router.register(r'todos', TodoViewSet, basename='todos')
 
-urlpatterns=router.urls
+urlpatterns=[
+    re_path(r'todos/<pk>/', TodoViewSet.destroy, name='destroy'),
+    path('', include(router.urls))
+]
