@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e672bf13-bee5-4185-84ae-2b03175081d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todolist/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist/viewset.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todolist/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+            <state relative-caret-position="71">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -31,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todolist/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
@@ -73,8 +69,8 @@
         <option value="$PROJECT_DIR$/django_todolist/settings.py" />
         <option value="$PROJECT_DIR$/todolist/viewset.py" />
         <option value="$PROJECT_DIR$/todolist/serializer.py" />
-        <option value="$PROJECT_DIR$/todolist/views.py" />
         <option value="$PROJECT_DIR$/todolist/urls.py" />
+        <option value="$PROJECT_DIR$/todolist/views.py" />
       </list>
     </option>
   </component>
@@ -168,12 +164,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668922760927</updated>
-      <workItem from="1668922763203" duration="6075000" />
+      <workItem from="1668922763203" duration="6758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6075000" />
+    <option name="totallyTimeSpent" value="6758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="34" width="1392" height="816" extended-state="0" />
@@ -244,9 +240,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todolist/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todolist/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/.local/share/virtualenvs/django_todolist-dfk5mCd3/lib/python3.10/site-packages/django/db/models/fields/__init__.py">
@@ -341,16 +334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todolist/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/todolist/viewset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -367,6 +350,30 @@
           <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/django_todolist-dfk5mCd3/lib/python3.10/site-packages/rest_framework/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
