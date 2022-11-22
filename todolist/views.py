@@ -3,7 +3,7 @@ from rest_framework.response import Response
 from todolist.models import Todo
 from todolist.serializer import TodoSerializer, TodoCreateSerializer
 from rest_framework.exceptions import NotFound,ValidationError
-from rest_framework.decorators import action
+from django.forms.models import model_to_dict
 
 
 class TodoViewSet(ViewSet):
@@ -25,12 +25,12 @@ class TodoViewSet(ViewSet):
         serializer = TodoCreateSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
 
-        serializer.save()
+        data = serializer.save()
 
-        resp = TodoSerializer(data=serializer.data)
-        resp.is_valid()
+        res = TodoSerializer(data=data.__dict__)
+        res.is_valid(raise_exception=True)
 
-        return Response(resp.data)
+        return Response(res.data)
 
     def destroy(self, request, pk=None):
         if Todo.objects.filter(id=pk).exists() is False:
