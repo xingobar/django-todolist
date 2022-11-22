@@ -35,6 +35,11 @@ class TodoViewSet(ViewSet):
     def destroy(self, request, pk=None):
         if Todo.objects.filter(id=pk).exists() is False:
             raise NotFound()
-        todo = Todo.objects.filter(id=pk).delete()
+        todo = Todo.objects.filter(id=pk).first()
 
-        return Response('ok')
+        res = TodoSerializer(data=todo.__dict__)
+        res.is_valid(raise_exception=True)
+
+        todo.delete()
+
+        return Response(res.data)
